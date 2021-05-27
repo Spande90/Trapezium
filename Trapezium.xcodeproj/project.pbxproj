@@ -13,6 +13,7 @@
 		35D0E6D6265FD5D50025156A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35D0E6D5265FD5D50025156A /* Preview Assets.xcassets */; };
 		35D0E6E1265FD5D50025156A /* TrapeziumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D0E6E0265FD5D50025156A /* TrapeziumTests.swift */; };
 		35D0E6EC265FD5D50025156A /* TrapeziumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D0E6EB265FD5D50025156A /* TrapeziumUITests.swift */; };
+		35D0E6FA265FDAF90025156A /* TrapeziumShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D0E6F9265FDAF90025156A /* TrapeziumShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		35D0E6E7265FD5D50025156A /* TrapeziumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrapeziumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35D0E6EB265FD5D50025156A /* TrapeziumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrapeziumUITests.swift; sourceTree = "<group>"; };
 		35D0E6ED265FD5D50025156A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35D0E6F9265FDAF90025156A /* TrapeziumShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrapeziumShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				35D0E6D2265FD5D50025156A /* Assets.xcassets */,
 				35D0E6D7265FD5D50025156A /* Info.plist */,
 				35D0E6D4265FD5D50025156A /* Preview Content */,
+				35D0E6F9265FDAF90025156A /* TrapeziumShape.swift */,
 			);
 			path = Trapezium;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35D0E6FA265FDAF90025156A /* TrapeziumShape.swift in Sources */,
 				35D0E6D1265FD5D30025156A /* ContentView.swift in Sources */,
 				35D0E6CF265FD5D30025156A /* TrapeziumApp.swift in Sources */,
 			);
